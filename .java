@@ -1,8 +1,13 @@
-public class OlaMundo {
+public class Soma {
 
     public static void main(String[] args) {
 
-        System.out.println("Olá, Mundo!");
+        int numero1 = 10;
+        int numero2 = 5;
+
+        int resultado = numero1 + numero2;
+
+        System.out.println("Resultado: " + resultado);
 
     }
 }
